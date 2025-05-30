@@ -20,7 +20,7 @@ pip install streamlit
 
 ### Running the Application
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 The application will automatically open in your default browser at `http://localhost:8501`
@@ -82,8 +82,8 @@ This approach uses flags to manage application state across Streamlit's executio
 ## 📁 Project Structure
 
 ```
-pomodoro-timer/
-├── app.py          # Main Streamlit application
+pomodoro_ui/
+├── main.py          # Main Streamlit application
 ├── base.py         # Vanilla Python countdown timer (reference implementation)
 ├── README.md       # This file
 └── requirements.txt # Python dependencies
