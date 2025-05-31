@@ -29,3 +29,5 @@ def display_time(timer):
         minutes = int(x / 60) %60
         print(f"00:{minutes:02}:{seconds:02}")
         time.sleep(1)
+
+print('Complete')
